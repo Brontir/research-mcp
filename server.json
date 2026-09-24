@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.brontir/research",
+  "description": "Web research across search, Reddit, YouTube, local businesses, reviews, ad libraries and more, with line-numbered citations.",
+  "version": "1.0.0",
+  "websiteUrl": "https://brontir.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://research.brontir.com/api/mcp"
+    }
+  ]
+}
